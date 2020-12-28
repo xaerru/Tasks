@@ -1,1 +1,1 @@
-# Beginner, Intermediate and Expert Tasks
+# Tasks
