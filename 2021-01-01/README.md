@@ -54,12 +54,10 @@ Non-alphabetic characters should not be altered.
 ### Examples
 
 ```py
-isHappyNumber(19) ➞ true
-isHappyNumber(7) ➞ true
-isHappyNumber(32) ➞ true
-isHappyNumber(145) ➞ false
-isHappyNumber(4) ➞ false
-isHappyNumber(89) ➞ false
-isHappyNumber(20) ➞ false
+atbash("apple") ➞ "zkkov"
+
+atbash("Hello world!") ➞ "Svool dliow!"
+
+atbash("Christmas is the 25th of December") ➞ "Xsirhgnzh rh gsv 25gs lu Wvxvnyvi"
 ```
 
