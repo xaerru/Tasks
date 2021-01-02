@@ -14,17 +14,7 @@ print(validateEmail("gmail"))
 print(validateEmail("hello@gmail"))
 print(validateEmail("hello@edabit.com"))
 
-def atbash(s):
-    r=""
-    for x in s:
-        if x.isalpha():
-            if x.islower():
-                r+=chr(219-ord(x))
-            else:
-                r+=chr(155-ord(x))
-        else:
-            r+=x
-    return r
+atbash=lambda  s:''.join([chr(90-(ord(x)-65)) if x.isalpha() and x.isupper() else (chr(122-(ord(x)-97) if x.isalpha() else ord(x))) for x in s])
 
 print(atbash("apple"))
 print(atbash("Hello world!"))
